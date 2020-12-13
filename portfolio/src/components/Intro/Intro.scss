@@ -1,0 +1,33 @@
+.intro-main {
+  //   border: 1px dashed black;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.intro-p {
+  //   border: 1px dashed black;
+  text-align: center;
+  font-size: 2rem;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+
+.intro-img-container {
+  margin-left: auto;
+  margin-right: auto;
+  height: 80%;
+  width: 100%;
+  //   border: 1px solid red;
+  display: flex;
+  justify-content: center;
+}
+
+.intro-img {
+  height: 100%;
+}

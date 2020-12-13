@@ -1,0 +1,36 @@
+.nav-main {
+  // border: 1px dashed black;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 3%;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-bottom: 4%;
+}
+
+.nav-sub {
+  // border: 1px dashed black;
+}
+
+.nav-headline-sub {
+  border: 5px solid black;
+  width: 70px;
+  height: 70px;
+  text-emphasis: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link-sub {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+}
