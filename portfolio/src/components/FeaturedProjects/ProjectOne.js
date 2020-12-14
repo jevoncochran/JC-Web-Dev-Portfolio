@@ -6,7 +6,7 @@ import { FiDatabase } from "react-icons/fi";
 
 const ProjectOne = () => {
   return (
-    <div>
+    <div className="fp-component">
       <div className="fp-project-sub">
         <div className="fp-project-image-div" style={{ width: "60%" }}>
           <img

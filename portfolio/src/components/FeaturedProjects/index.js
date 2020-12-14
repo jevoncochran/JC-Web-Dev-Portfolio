@@ -1,6 +1,7 @@
 import React from "react";
 import "./FeaturedProjects.scss";
 import ProjectOne from "./ProjectOne";
+import ProjectTwo from "./ProjectTwo";
 
 const FeaturedProjects = () => {
   return (
@@ -11,6 +12,7 @@ const FeaturedProjects = () => {
       </div>
       <div className="fp-sub">
         <ProjectOne />
+        <ProjectTwo />
       </div>
     </div>
   );

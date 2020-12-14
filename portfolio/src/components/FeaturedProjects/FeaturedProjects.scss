@@ -1,12 +1,16 @@
 .fp-main {
   width: 100%;
   //   border: 1px dashed black;
-  height: 70vh;
+  height: 200vh;
   padding: 0% 10%;
 }
 
 .fp-sub {
   margin-bottom: 3%;
+}
+
+.fp-component {
+  margin-bottom: 5%;
 }
 
 .fp-headline {
@@ -20,12 +24,13 @@
 .fp-project-sub {
   display: flex;
   //   border: 1px dashed black;
+  justify-content: center;
 }
 
 .fp-project-image-div {
   //   border: 1px dashed black;
   padding: 2%;
-  background-color: #ebedef;
+  background-color: #f2f4f4;
 }
 
 .fp-project-image {
