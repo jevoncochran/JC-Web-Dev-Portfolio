@@ -22,30 +22,30 @@ const ProjectOne = () => {
             connects food truck vendors and hungry customers
           </p>
           <div className="fp-project-category-div">
-          <div className="fp-project-category-div-sub">
-            <div className="fp-project-category-icon">
-              <FaLaptop />
+            <div className="fp-project-category-div-sub">
+              <div className="fp-project-category-icon">
+                <FaLaptop />
+              </div>
+              <p className="fp-project-category-text">Web Design</p>
             </div>
-            <p className="fp-project-category-text">Web Design</p>
-          </div>
-          <div className="fp-project-category-div-sub">
-            <div className="fp-project-category-icon">
-              <FaMobileAlt />
+            <div className="fp-project-category-div-sub">
+              <div className="fp-project-category-icon">
+                <FaMobileAlt />
+              </div>
+              <p className="fp-project-category-text">Mobile Application</p>
             </div>
-            <p className="fp-project-category-text">Mobile Application</p>
-          </div>
-          <div className="fp-project-category-div-sub">
-            <div className="fp-project-category-icon">
-              <FaReact />
+            <div className="fp-project-category-div-sub">
+              <div className="fp-project-category-icon">
+                <FaReact />
+              </div>
+              <p className="fp-project-category-text">Frontend Development</p>
             </div>
-            <p className="fp-project-category-text">Frontend Development</p>
-          </div>
-          <div className="fp-project-category-div-sub">
-            <div className="fp-project-category-icon">
-              <FiDatabase />
+            <div className="fp-project-category-div-sub">
+              <div className="fp-project-category-icon">
+                <FiDatabase />
+              </div>
+              <p className="fp-project-category-text">Backend Development</p>
             </div>
-            <p className="fp-project-category-text">Backend Development</p>
-          </div>
           </div>
           <button className="fp-project-btn">View Site</button>
         </div>
