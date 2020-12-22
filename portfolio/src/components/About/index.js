@@ -2,7 +2,7 @@ import React from "react";
 import jcInChicago from "../../assets/me-chicago-skyline.jpg";
 import "./About.scss";
 
-const About = () => {
+const About = (props) => {
   return (
     <div className="about">
       <img className="about-image" src={jcInChicago} alt="Jevon Cochran" />
@@ -25,7 +25,12 @@ const About = () => {
           below.
         </p>
         {/* <div className="about-text-btn-container"> */}
-        <button className="about-text-btn">Contact</button>
+        <button
+          className="about-text-btn"
+          onClick={() => props.history.push("/contact")}
+        >
+          Contact
+        </button>
         {/* </div> */}
       </div>
     </div>
