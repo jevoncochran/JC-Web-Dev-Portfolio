@@ -25,6 +25,11 @@
   font-family: "Rochester", cursive;
   text-decoration: none !important;
   color: #000;
+  // font-size: 1.65rem;
+}
+
+.nav-headline-text {
+  font-size: 3rem;
 }
 
 .nav-link-sub {
@@ -36,9 +41,9 @@
 .nav-link {
   text-decoration: none;
   color: #000;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
 }
 
 .nav-link:hover {
-  color: #808b96;
+  color: #e67e22;
 }
