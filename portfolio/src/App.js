@@ -12,10 +12,10 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Route exact path="/JC-Web-Dev-Portfolio" component={Home} />
-      <Route path="/JC-Web-Dev-Portfolio/resume" component={Resume} />
-      <Route path="/JC-Web-Dev-Portfolio/about" component={About} />
-      <Route path="/JC-Web-Dev-Portfolio/contact" component={Contact} />
+      <Route exact path="/" component={Home} />
+      <Route path="/resume" component={Resume} />
+      <Route path="/about" component={About} />
+      <Route path="/contact" component={Contact} />
     </div>
   );
 }
