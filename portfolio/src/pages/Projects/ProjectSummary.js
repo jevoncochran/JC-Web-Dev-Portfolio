@@ -22,7 +22,7 @@ const ProjectSummary = (props) => {
           </button>
         </div>
       </div>
-      <img className="projects-ps-img" src={props.leadImage} alt="" />
+      <img className="projects-ps-img" src={props.leadImage} alt="" onClick={() => props.history.push(`/projects/${props.id}`)}/>
     </div>
   );
 };
