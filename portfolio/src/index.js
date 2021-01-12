@@ -3,11 +3,15 @@ import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import ProjectProvider from "./context/ProjectContext";
 
 ReactDOM.render(
-  <Router>
-    <App />
-  </Router>,
+  <ProjectProvider>
+    <Router>
+      <App />
+    </Router>
+    ,
+  </ProjectProvider>,
   document.getElementById("root")
 );
 
