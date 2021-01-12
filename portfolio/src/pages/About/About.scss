@@ -1,0 +1,32 @@
+.about {
+  // border: 1px dashed black;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 20%;
+  font-family: "Playfair Display", serif;
+  padding: 2%;
+}
+
+.about-text-container {
+  width: 50%;
+  //   border: 1px dashed black;
+}
+
+.about-text {
+  font-size: 2rem;
+  margin-bottom: 6%;
+}
+
+.about-text-first-line {
+  font-size: 3.5rem;
+}
+
+.about-text-btn {
+  width: 30%;
+  height: 5vh;
+  background-color: #000;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+}
