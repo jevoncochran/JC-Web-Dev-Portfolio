@@ -4,6 +4,7 @@
   margin-left: 20%;
   padding: 2%;
   font-family: "Playfair Display", serif;
+  color: #2c3259;
 }
 
 .contact-bio {
@@ -27,10 +28,12 @@
   font-size: 2rem;
   //   text-align: center;
   text-transform: capitalize;
+  color: #dcb13c;
 }
 
 .contact-contact {
   font-size: 2rem;
+  color: #dcb13c;
 }
 
 .contact-pitch {
@@ -67,6 +70,8 @@
   height: 4vh;
   font-size: 1.8rem;
   padding-left: 1%;
+  background-color: #2c3259;
+  color: #fff;
 }
 
 .contact-input-name {
@@ -79,8 +84,8 @@
 
 .contact-submit-btn {
   height: 5vh;
-  background-color: #000;
-  color: #fff;
+  background-color: #dcb13c;
+  color: #2c3259;
   border: none;
   width: 20%;
   font-size: 1.8rem;
