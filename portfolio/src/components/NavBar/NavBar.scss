@@ -1,5 +1,5 @@
 .nav {
-  border-right: 1px solid black;
+  // border-right: 1px solid black;
   // border: 1px dashed black;
   // display: flex;
   width: 20%;
@@ -11,10 +11,12 @@
   // margin-bottom: 4%;
   font-family: "Playfair Display", serif;
   position: fixed;
+  background-color: #2c3259;
+  color: #fff;
 }
 
 .nav-top-home {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #dcb13c;
   // border: 1px solid red;
   width: 100%;
   height: 20vh;
@@ -25,7 +27,7 @@
 }
 
 .nav-top {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #dcb13c;
   // border: 1px solid red;
   width: 100%;
   height: 40vh;
@@ -44,13 +46,13 @@
 .nav-top-name {
   font-size: 2.5rem;
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 
 .nav-top-title {
   font-size: 1.5rem;
   text-decoration: none;
-  color: #000;
+  color: #dcb13c;
 }
 
 .nav-top-pic-home {
@@ -78,40 +80,12 @@
   }
 }
 
-.nav-sub {
-  // border: 1px dashed black;
-}
-
-.nav-headline-sub {
-  border: 5px solid black;
-  width: 70px;
-  height: 70px;
-  text-emphasis: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Rochester", cursive;
-  text-decoration: none !important;
-  color: #000;
-  // font-size: 1.65rem;
-}
-
-.nav-headline-text {
-  font-size: 3rem;
-}
-
-.nav-link-sub {
-  width: 30%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
 .nav-link {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   font-size: 1.8rem;
 }
 
 .nav-link:hover {
-  // color: #e67e22;
+  color: #dcb13c;
 }
