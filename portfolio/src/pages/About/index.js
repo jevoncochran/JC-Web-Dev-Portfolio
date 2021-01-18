@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import "./About.scss";
 import { ProjectContext } from "../../context/ProjectContext";
+import aboutMePic from "../../assets/about-me-pic.jpg";
 
 const About = (props) => {
   const { deactivateHome } = useContext(ProjectContext);
@@ -38,6 +39,11 @@ const About = (props) => {
         </button>
         {/* </div> */}
       </div>
+      <img
+        className="about-img"
+        src={aboutMePic}
+        alt="Jevon Cochran seated with laptop in front of him"
+      />
     </div>
   );
 };
